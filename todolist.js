@@ -24,24 +24,4 @@ $("input[type='text']").keypress(function(event){
  });
  
 
- let itemsArray = []
-
- localStorage.setItem('#items', JSON.stringify(itemsArray))
- //const data = JSON.parse(localStorage.getItem('items'))
-
-//  // form event listener here
-// e.preventDefault()
-
-// itemsArray.push(input.value)
-// localStorage.setItem('#items', JSON.stringify(itemsArray))
-
-// data.forEach(item => {
-//     liMaker(item)
-//   })
-
-//   button.addEventListener('click', function() {
-//     localStorage.clear()
-//     while (ul.firstChild) {
-//       ul.removeChild(ul.firstChild)
-//     }
-//   })
+ 
