@@ -1,0 +1,78 @@
+body {
+    font-family: Roboto;
+    font-size: large;
+    /* background: url(coffee.jpg) no-repeat; */
+}
+
+h1 {
+    background: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.fa-calendar-check {
+    float: right;
+   
+}
+
+.fa-trash-alt {
+    float: right;
+    width: 40px;
+    padding: 10px;
+} 
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+
+li:nth-child(2n) {
+    background: #e9e6e6 ;
+}
+
+span {
+    height: 40px;
+    margin: 20px 20px 20px 0;
+    text-align: center;
+}
+
+input {
+    font-size: 18px;
+    
+    color: #2980b9 ;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    background: #fff;
+    border: 3px solid #2980b9 ;
+    outline: none;
+}
+
+#container {
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7 ;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+    color: grey;
+    text-decoration: line-through;
+}
